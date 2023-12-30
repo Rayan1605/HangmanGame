@@ -16,9 +16,9 @@ while not game_Over:
         letter = chosen_word[position]
         if letter == Guessed_letters:
            display[position] = Guessed_letters
-        else:
-            print("No match")
 
+    if Guessed_letters not in chosen_word:
+        lives -=1
 
 
 
