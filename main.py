@@ -19,6 +19,9 @@ while not game_Over:
 
     if Guessed_letters not in chosen_word:
         lives -=1
+        if lives == 0:
+            game_Over = True
+            print("You lose")
 
 
 
