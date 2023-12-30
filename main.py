@@ -1,6 +1,7 @@
 import random
 
 words_lists = ["apple", "beautiful", "potato"]
+lives =6
 chosen_word = random.choice(words_lists)
 
 print(chosen_word)
