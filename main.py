@@ -12,7 +12,7 @@ print(display)
 game_Over = False
 while not game_Over:
     Guessed_letters = input("Guess a letter: ")
-    for letter in chosen_word:
+    for position in chosen_word:
         if letter == Guessed_letters:
             print("Match")
         else:
