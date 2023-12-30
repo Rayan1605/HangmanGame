@@ -11,7 +11,7 @@ for i in range(len(chosen_word)):
 print(display)
 game_Over = False
 while not game_Over:
-    Guessed_letters = input("Guess a letter: ")
+    Guessed_letters = input("Guess a letter: ").lower()
     for position in range(len(chosen_word)):
         letter = chosen_word[position]
         if letter == Guessed_letters:
