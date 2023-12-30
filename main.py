@@ -9,13 +9,14 @@ display = []
 for i in range(len(chosen_word)):
     display += '_'
 print(display)
-Guessed_letters = input("Guess a letter: ")
-
-for letter in chosen_word:
-    if letter == Guessed_letters:
-        print("Match")
-    else:
-        print("No match")
+game_Over = False
+while not game_Over:
+    Guessed_letters = input("Guess a letter: ")
+    for letter in chosen_word:
+        if letter == Guessed_letters:
+            print("Match")
+        else:
+            print("No match")
 
 
 
