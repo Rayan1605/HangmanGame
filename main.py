@@ -8,5 +8,5 @@ display = []
 for i in range(len(chosen_word)):
     display += '_'
 print(display)
-
+Guessed_letters = input("Guess a letter")
 
