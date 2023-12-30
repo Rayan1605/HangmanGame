@@ -24,4 +24,6 @@ while not game_Over:
             print("You lose")
 
 
-
+    if '_' not in display:
+        game_Over = True
+        print("You win")
