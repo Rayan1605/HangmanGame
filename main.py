@@ -15,7 +15,7 @@ while not game_Over:
     for position in range(len(chosen_word)):
         letter = chosen_word[position]
         if letter == Guessed_letters:
-            print("Match")
+           display[position] = Guessed_letters
         else:
             print("No match")
 
